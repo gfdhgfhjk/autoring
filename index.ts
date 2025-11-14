@@ -34,7 +34,7 @@ export default definePlugin({
                 channelId
             });
         } catch (err) {
-            Logger.error("Failed to auto-redial:", err);
+            Logger.error("Failed to auto-ring:", err);
         }
     }
 });
